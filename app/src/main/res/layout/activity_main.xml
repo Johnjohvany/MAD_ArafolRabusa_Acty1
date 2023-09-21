@@ -27,6 +27,7 @@
         android:fontFamily="@font/alegreya_sc_black_italic"
         android:gravity="center"
         android:text="Hello World!"
+        android:textColor="#FF00FF"
         android:textSize="25sp"
         android:textStyle="bold|italic" />
 
@@ -38,7 +39,9 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="100dp"
         android:gravity="center"
+        android:backgroundTint="#9932CC"
         android:text="Change font size"
+        android:textColor="@color/white"
         android:fontFamily="@font/alex_brush"
         android:textSize="40sp" />
 
@@ -48,8 +51,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:gravity="center"
+        android:textColor="@color/white"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
+        android:backgroundTint="#9932CC"
         android:fontFamily="@font/alex_brush"
         android:text="Change color"
         android:textSize="40sp" />
