@@ -17,7 +17,7 @@
         android:textAlignment="center"
         android:textColor="@color/white"
 
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textView"
@@ -34,11 +34,13 @@
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="Change font size"
         android:fontFamily="@font/alex_brush"
-        android:textSize="50sp" />
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/button2"
@@ -46,9 +48,19 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         android:fontFamily="@font/alex_brush"
         android:text="Change color"
-        android:textSize="50sp" />
+        android:textSize="40sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9932CC"
+        android:textSize="40dp"
+        android:layout_marginTop="160dp"
+        />
 
-</LinearLayout>
+    </LinearLayout>
+
